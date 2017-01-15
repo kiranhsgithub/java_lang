@@ -9,16 +9,16 @@ package com.java.learning.one;
  */
 public class OverrideTest {
 
-	/*public  <T extends Integer> int getNumber()
+	public  <T extends Integer> int getNumber()
 	{
 		return 2;
-	}*/
+	}
 	
-	/*public  <T extends Long> long getNumber()
+	public  <T extends Long> long getNumber()
 	{
 		return this.<Integer>getNumber();
 	}
-	*/
+	
 	
 	/**
 	 * @param args
@@ -26,7 +26,7 @@ public class OverrideTest {
 	public static void main(String[] args) {
 		
 		OverrideTest o = new OverrideTest();
-		//System.out.println(" get()" + o.<Integer>getNumber() );
+		System.out.println(" get()" + o.<Integer>getNumber() );
 	}
 
 }
