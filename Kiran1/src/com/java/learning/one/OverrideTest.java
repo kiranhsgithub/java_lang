@@ -14,10 +14,10 @@ public class OverrideTest {
 		return 2;
 	}
 	
-	public  <T extends Long> long getNumber()
+	/*public  <T extends Long> long getNumber()
 	{
 		return this.<Integer>getNumber();
-	}
+	}*/
 	
 	
 	/**
