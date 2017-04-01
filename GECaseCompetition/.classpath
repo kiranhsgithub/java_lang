@@ -8,5 +8,6 @@
 	<classpathentry kind="lib" path="D:/Google Drive/GE_Case_Comp/Jars/preflight-2.0.5.jar"/>
 	<classpathentry kind="lib" path="D:/Google Drive/GE_Case_Comp/Jars/xmpbox-2.0.5.jar"/>
 	<classpathentry kind="lib" path="D:/Google Drive/GE_Case_Comp/Jars/commons-logging-1.2/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="D:/Google Drive/GE_Case_Comp/Jars/itextpdf-5.5.11.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
