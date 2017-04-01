@@ -14,21 +14,21 @@ import java.util.Iterator;
 public class Account 
 {
 
-	Integer number;
+	Integer id;
 	public Account(Integer number)
 	{
-		this.number = number;
+		this.id = number;
 	}
 	
 	public String toString()
 	{
-		return "Account : " + number;
+		return "Account : " + id;
 	}
 	
 	@Override
 	public boolean equals(Object o)
 	{
-		return (this.number.equals(((Account)o).number));
+		return (this.id.equals(((Account)o).id));
 	}
 	
 	@Override
@@ -36,7 +36,7 @@ public class Account
 	{
 		//return 12;
 		//System.out.println("super().hashCode()" + super.hashCode());
-		return number.hashCode();
+		return id.hashCode();
 		
 	} 
 	
@@ -96,7 +96,7 @@ public class Account
 		
 		
 		
-		a1.number = 90;
+		a1.id = 90;
 		System.out.println("Modified List" + list);
 		System.out.println("Modified set" + set);
 		System.out.println("Modified map" + map);

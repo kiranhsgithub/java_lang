@@ -60,9 +60,9 @@ public class Gsi extends GsiSuper {
 		
 		Class classDefinition;
 		try {
-			classDefinition = Class.forName("com.americanexpress.kiran1.Gsi");
+			classDefinition = Class.forName("com.java.learning.one.Gsi");
 			
-			Gsi gsi3 = (Gsi) classDefinition.newInstance();
+			classDefinition.newInstance();
 			
 		} catch (ClassNotFoundException e) {
 			// TODO Auto-generated catch block

@@ -86,7 +86,8 @@ public class ListsComparator {
 		{
 			Random r = new Random();
 			int rn = r.nextInt(10000);
-			arList.add(10000/2-i+rn,"Hello" + i);
+			rn = Math.abs(rn % 10000);
+			arList.add(rn,"Hello" + i);
 		}
 		
 		long time10 = System.currentTimeMillis();
@@ -101,7 +102,8 @@ public class ListsComparator {
 		{
 			Random r = new Random();
 			int rn = r.nextInt(10000);
-			arList.add(10000/2-i+rn,"Hello" + i);
+			rn = Math.abs(rn % 10000);
+			lnkList.add(rn,"Hello" + i);
 		}
 		
 		long time12 = System.currentTimeMillis();
